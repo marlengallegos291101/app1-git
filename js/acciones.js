@@ -6,7 +6,7 @@ $(document).ready(function (e){
      $('#disp table td').eq(5).text(device.cordova);
      $('#disp table td').eq(7).text(device.platform);
      $('#disp table td').eq(9).text(device.version);
-     $('"disp table td').eq(11).text(device.uuid);
+     $('#disp table td').eq(11).text(device.uuid);
   },false);//ready device
   
 });//document
